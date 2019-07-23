@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="Iteration1">
+  	<parameter name="uid" value="12715a0421"/>
+  	<parameter name="criteria" value="valid"/>
+    <classes>
+      <class name="mypack.Test1"/>
+    </classes>
+  </test> 
+  <test name="Iteration2">
+  	<parameter name="uid" value="12715a0422"/>
+  	<parameter name="criteria" value="invalid"/>
+    <classes>
+      <class name="mypack.Test1"/>
+    </classes>
+  </test>
+  <test name="Iteration3">
+  <parameter name="uid" value=""/>
+  <parameter name="criteria" value="invalid"/>
+    <classes>
+      <class name="mypack.Test1"/>
+    </classes>
+  </test>
+</suite> 
